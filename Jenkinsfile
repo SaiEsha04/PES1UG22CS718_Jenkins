@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './nonexistent_binary'
+                    sh './nonexistent_binary' //error present here 
                 }
             }
         }
