@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES1UG22CS718-1'
+                    sh './nonexistent_binary'
                 }
             }
         }
